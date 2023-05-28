@@ -10,7 +10,7 @@ theme:
     font:
         text: Ubuntu
         code: Ubuntu Mono
-    language: en
+    language: ru
     palette:
 
     # Light mode
