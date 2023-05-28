@@ -1,8 +1,8 @@
 ---
 share: true
 template: blog.html
-title: Блог
-category: Blog
+title: Мой блог
+category: Блог
 hidden: True
 ---
 A cool description
