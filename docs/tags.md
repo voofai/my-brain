@@ -1,1 +1,4 @@
+---
+share: true
+---
 [TAGS]
