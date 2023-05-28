@@ -31,11 +31,9 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
     features:
-        - navigation.indexes
+  #      - navigation.indexes
         - navigation.top
         - navigation.tabs
-        - navigation.tabs.sticky
-        - navigation.expand
         - search.suggest
         - search.highlight
         
@@ -88,8 +86,6 @@ plugins:
       custom-attributes: 'assets/css/custom_attributes.css'
   - custom-attributes:
       file: 'assets/css/custom_attributes.css'
-  - tags:
-      tags_file: tags.md
   - callouts
   - glightbox
 hooks:
