@@ -1,9 +1,13 @@
 ---
 share: true
-title: Главная
+index: true
+hidden: true
+category: Статьи/Блог
+template: blog.html
+comments: false
+title: Блог
 hide:
   - navigation
-  - toc
 ---
 
 Какая-то важная информация
