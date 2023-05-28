@@ -1,8 +1,8 @@
 ---
 share: true
 template: blog.html
-title: Folder Index
-category: FolderName
+title: Блог
+category: Blog
 hidden: True
 ---
 A cool description
