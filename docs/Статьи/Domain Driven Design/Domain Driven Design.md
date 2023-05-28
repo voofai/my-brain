@@ -9,9 +9,9 @@ DDD методология делится на две части: [[id:68e3698c-
 
 Без понимания бизнес области и причин, по которым появляются те или иные требования, мы можем пропустить какой-то важный граничный случай, не отраженный в требованиях. Не сможем предсказать какие части нуждаются в большей гибкости, так как будут скорее всего часто меняться.
 
-#+BEGIN_QUOTE
-Software development is a learning process, working code is a side effect. -- Alberto Brandolini
-#+END_QUOTE
+>Software development is a learning process, working code is a side effect. 
+>- Alberto Brandolini
+
 
 #+BEGIN_QUOTE
 "The main value in software is not the code produced, but the knowledge accumulated by the people who produced it."
