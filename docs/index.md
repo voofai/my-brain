@@ -2,7 +2,7 @@
 share: true
 index: true
 hidden: true
-title: Блог
+title: Главная
 hide:
   - navigation
   - toc
