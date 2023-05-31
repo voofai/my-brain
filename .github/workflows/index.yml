@@ -1,6 +1,6 @@
 name: Index Creation
 
-on: 
+on:
   workflow_dispatch:
     inputs:
       category_name:
@@ -11,7 +11,7 @@ on:
         type: string
         required: false
         description: "The path of the new folder. Ex: category/subcategory"
-      description: 
+      description:
         type: string
         required: false
         description: "The description of the category."
@@ -40,4 +40,3 @@ jobs:
       dry_run: ${{ inputs.dry_run}}
     secrets:
       GH_PAT: ${{ secrets.GITHUB_TOKEN }}
-
