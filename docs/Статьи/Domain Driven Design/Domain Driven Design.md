@@ -2,7 +2,7 @@
 share: true
 ---
 
-Domain Driven Design предоставляет набор методов создания программного обеспечения ориентируясь на бизнес. Был придуман Эриком Эвансом в 2003 году и описан в книге ==Domain-Driven Design: Tackling Complexity in the Heart of Software==.
+Domain Driven Design предоставляет набор методов создания программного обеспечения ориентируясь на бизнес. Был придуман Эриком Эвансом в 2003 году и описан в книге *Domain-Driven Design: Tackling Complexity in the Heart of Software*.
 
 DDD методология делится на две части:
 - [[Статьи/Domain Driven Design/Стратегический дизайн|Стратегический дизайн]]
