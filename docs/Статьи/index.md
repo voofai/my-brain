@@ -4,4 +4,5 @@ title: Свалка знаний
 category: Статьи
 hidden: True
 ---
-A cool description2
+
+Важная информация о свалке знаний

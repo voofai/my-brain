@@ -8,6 +8,5 @@ hide:
   - navigation
   - toc
 ---
-A cool description
 
-Wellcome to my brain!
+Важная информация о блоге
