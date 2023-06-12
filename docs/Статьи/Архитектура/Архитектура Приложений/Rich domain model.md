@@ -27,5 +27,4 @@ public class Order {
 Стоит использовать для модулей со сложной бизнес логикой, в противном случае скорее приведет к ухудшению читаемости кода. 
 
 # Ссылки
-
 - [Пример приложения](https://github.com/neherim/java-guild-katas/tree/master/money-transfer/money-transfer-rich)
