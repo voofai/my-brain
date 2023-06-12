@@ -6,8 +6,7 @@ share: true
 
 Решением данной проблемы может стать использования [Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) паттерна или [[Статьи/Архитектура/Идемпотентность|идемпотентного]] API.
 
-# Примеры
-
+## Примеры
 1. Сначала делаем commit транзакции в БД, потом пытаемся отправить сообщение в Kafka. Система ломается в случае ошибки при записи в Kafka или в случае падения сервиса сразу после commit'а. После перезапуска сервис увидит, что в БД запись уже сделана и никак не сможет узнать, что отправка сообщения в Kafka не удалась.
    ![500](attachments/disp2.excalidraw.png)
    **Решение**: использовать [Transactional outbox](https://microservices.io/patterns/data/transactional-outbox.html) паттерн. 

@@ -10,6 +10,6 @@ alias: чистота доменной модели
 При выборе выгоднее всего придерживаться чистоты, так как зависимости от внешних источников в доменной модели приведут к сложностям при тестировании.
 Соблюдение чистоты доменной модели крайне положительно сказывается на качестве разрабатываемого ПО.
 
-# Ссылки
+## Ссылки
 - [Domain model purity vs. domain model completeness (DDD Trilemma)](https://enterprisecraftsmanship.com/posts/domain-model-purity-completeness/)
 - [Validation and DDD](https://enterprisecraftsmanship.com/posts/validation-and-ddd/)

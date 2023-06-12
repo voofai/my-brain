@@ -14,7 +14,6 @@ alias: сочетаемость
 6. Functional cohesion
 7. Data cohesion
 
-# Ссылки
-
+## Ссылки
 - [Моя презентация: Coupling & Cohesion](https://htmlpreview.github.io/?https://github.com/neherim/coupling-cohesion/blob/master/Coupling%20%26%20Cohesion.html)
 - [Cohesion vs Coupling](https://devopedia.org/cohesion-vs-coupling)

@@ -9,7 +9,6 @@ share: true
 Мы были ослеплены большим количеством простых задач и опять попадаем в ситуацию, когда проще переписать чем имплементировать фичу.
 
 ## Цитаты
-
 >[!quote]
 >Agile - Throwing shit against the wall and seeing what sticks
 

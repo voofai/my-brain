@@ -20,5 +20,5 @@ alias: закон Конвея
  * All kind of rules, procedures and political nuances will be a barrier to make decisions and strategic changes
  * Fear of change will make people keep their habits. In their opinion, it may lead to the loss of power and position in the organization.
 
-# Ссылки
+## Ссылки
 - [Conway's Law - how organization's structure influences its results](https://radekmaziarka.pl/2021/03/14/conways-law-how-organizations-structure-influences-its-results/)

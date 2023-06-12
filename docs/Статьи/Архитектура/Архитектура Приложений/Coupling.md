@@ -10,7 +10,6 @@ alias: связанность
 Почему важна слабая связанность? Авторы книги *"Accelerate: Building and Scaling High Performing Technology Organizations"* обнаружили тесную взаимосвязь между успехом бизнеса и производительностью IT отделов в организации. Они также обнаружили, что разработчики в высокоэффективных организациях соглашаются со следующим утверждением:
 "Выполняйте свою работу, не общаясь и не координируя свои действия с людьми, не входящими в их команду".
 
-# Ссылки
-
+## Ссылки
 - [Cohesion vs Coupling](https://devopedia.org/cohesion-vs-coupling)
 - [Balancing Coupling in Software Design - Vladik Khononov - YouTube](https://www.youtube.com/watch?v=z15erm3pBmk)
