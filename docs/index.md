@@ -1,11 +1,11 @@
 ---
 share: true
-index: true
-hidden: true
-title: Главная
+template: blog.html
+title: Блог
+category: Блог
+hidden: True
 hide:
   - navigation
   - toc
 ---
 
-Какая-то важная информация
