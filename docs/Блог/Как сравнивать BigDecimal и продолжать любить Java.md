@@ -1,16 +1,15 @@
 ---
 date: 2022-01-22
 share: true
-hide:
-  - navigation
-  - toc
+tags:
+  - java
 ---
 
 `BigDecimal` это класс языка Java для представления чисел с плавающей запятой. И если вы уверены, что `1.8 == 1.80`, то вас может ждать сюрприз. Метод `BigDecimal.equals` может отработать не так как вы ожидали. Цитата из javadoc:
 
 >Compares this BigDecimal with the specified Object for equality. Unlike compareTo, this method considers two BigDecimal objects equal only if they are equal in value and scale (thus 2.0 is not equal to 2.00 when compared by this method).
 
-Таким образом сравнивается не только сами значения, но и количество знаков после запятой, даже если это нули. Если вы хотите, чтобы при сравнении точность не играла такой роли, то используйте метод compareTo. На практике это выглядит так:
+Таким образом сравнивается не только сами значения, но и количество знаков после запятой, даже если это нули. Если вы хотите, чтобы при сравнении точность не играла такой роли, то используйте метод `compareTo`. На практике это выглядит так:
 
 ```java
 var a = new BigDecimal("0.8");
