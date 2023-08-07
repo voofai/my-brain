@@ -65,6 +65,7 @@ Domain Service содержит бизнес логику, которая либ
 Как и DDD чистую архитектуру имеет смысл использовать только если приложение содержит сложную доменную логику. Иначе принесет больше вреда чем пользы.
 
 ## Ссылки
+- [Vertical Slice Architecture, not Layers! - YouTube](https://www.youtube.com/watch?v=L2Wnq0ChAIA&ab_channel=CodeOpinion)
 - [DevoxxUA 2021. Victor Rentea. A Clean, Pragmatic Architecture - YouTube](https://www.youtube.com/watch?v=fnl-w1Jwgys&ab_channel=DevoxxUkraine)
 - [Clean Coder Blog](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 - [Clean Architecture: A Craftsman's Guide to Software Structure and Design: Books](https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164)

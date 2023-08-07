@@ -9,6 +9,7 @@ share: true
 
 - Не использовать `Optional` как аргумент в функциях, использовать `Optional` для возврата значения из функций.
 - Не использовать `Optional` тип для полей классов. Возвращать `Optional` в getter поля.
+
 ```java
 @Value
 class User {
@@ -19,7 +20,7 @@ class User {
 ```
 
    Правильно:
-   
+
 ```java
 @Value
 class User {
@@ -32,29 +33,36 @@ class User {
   }
 }
 ```
-    
+
 - Понимать разницу между `.orElse()` и `.orElseGet()`. 
    `.orElse()` - используем, если значение уже посчитано 
    `.orElseGet()` - используем, если значение необходимо вычислить.
    Не правильно:
+
 ```java
   User user = users.stream().findFirst().orElse(new User("default", "1234"));
 ```
+
    Конструктор User будет вызван в любом случае, даже если значение Optional существует.
    Правильно:
+
 ```java
   User user = users.stream().findFirst().orElseGet(() -> new User("default", "1234"));
 ```
+
    Конструктор User будет вызван только если не нашли подходящего пользователя.
 
 - Не использовать связку `Optional.isPresent()` - `Optional.get()` там, где можно обойтись функцией `Optional.ifPresent()`.
 
 - Не увлекайтесь использованием Optional
    Не правильно:
+
 ```java
   return Optional.ofNullable(status).orElse("Not started yet.");
 ```
+
    Правильно:
+
 ```java
   return status == null ? "Not started yet." : status;
 ```
