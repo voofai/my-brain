@@ -1,7 +1,7 @@
 ---
 date: 2022-01-22
 share: true
-tags:
+categories:
   - java
 slug: bigdecimal
 ---

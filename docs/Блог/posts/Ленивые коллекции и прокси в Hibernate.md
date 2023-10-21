@@ -2,7 +2,7 @@
 date: 2023-08-07
 share: true
 title: Ленивые коллекции и прокси в Hibernate
-tags:
+categories:
   - java
   - jpa
 slug: lazy-collections-hibernate
