@@ -63,9 +63,9 @@ markdown_extensions:
   - pymdownx.tasklist:
        custom_checkbox: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - admonition
+  - md_in_html
   - toc:
       permalink: true
   - pymdownx.inlinehilite
@@ -88,6 +88,12 @@ plugins:
       file: 'assets/css/custom_attributes.css'
   - callouts
   - glightbox
+  - blog:
+      blog_dir: Блог
+      post_date_format: long
+      post_readtime: true
+      archive: false
+      categories: true
 hooks:
   - overrides/hooks/on_page_markdown.py
   - overrides/hooks/on_env.py
