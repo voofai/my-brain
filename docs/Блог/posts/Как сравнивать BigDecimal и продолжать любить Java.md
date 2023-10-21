@@ -3,9 +3,12 @@ date: 2022-01-22
 share: true
 tags:
   - java
+slug: bigdecimal
 ---
 
-`BigDecimal` это класс языка Java для представления чисел с плавающей запятой. И если вы уверены, что `1.8 == 1.80`, то вас может ждать сюрприз. Метод `BigDecimal.equals` может отработать не так как вы ожидали. Цитата из javadoc:
+`BigDecimal` это класс языка Java для представления чисел с плавающей запятой. И если вы уверены, что `1.8 == 1.80`, то вас может ждать сюрприз. 
+<!-- more -->
+Метод `BigDecimal.equals` может отработать не так как вы ожидали. Цитата из javadoc:
 
 >Compares this BigDecimal with the specified Object for equality. Unlike compareTo, this method considers two BigDecimal objects equal only if they are equal in value and scale (thus 2.0 is not equal to 2.00 when compared by this method).
 
