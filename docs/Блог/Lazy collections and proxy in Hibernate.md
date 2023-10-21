@@ -163,7 +163,7 @@ public class Player {
 
 ```java
 Player player = playerRepository.findById(playerId); // запрашиваем Player из БД без загрузки списка achievements
-player.getAchievements().add(new Achievement("Гроза гоблинов", player)); // не происходит загрузки списка achievements 
+player.getAchievements().add(new Achievement("Гроза гоблинов", player)); // добавляем новый элемент в коллекцию achievements
 ```
 
 По SQL запросам видим, что полной загрузки списка achievements не происходит:

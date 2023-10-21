@@ -1,5 +1,6 @@
 ---
 share: true
+alias: DDD
 ---
 
 Domain Driven Design предоставляет набор методов создания программного обеспечения ориентируясь на бизнес. Был придуман Эриком Эвансом в 2003 году и описан в книге *Domain-Driven Design: Tackling Complexity in the Heart of Software*.
@@ -32,3 +33,5 @@ DDD методология делится на две части:
 # Статьи
 - [Vladimir Khorikov - Blog](https://enterprisecraftsmanship.com/posts)
 - [Virtual Domain-Driven Design - A community of practise](https://virtualddd.com/learning-ddd/ddd-crew-starter-modelling)
+- [If you're new to DDD and not sure where to start, this process will guide you step-by-step](https://github.com/ddd-crew/ddd-starter-modelling-process)
+
