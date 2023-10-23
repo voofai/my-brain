@@ -3,7 +3,7 @@ share: true
 date: 2023-09-13
 slug: arch-book
 categories:
-  - книги
+  - books
 title: "[Book] Software Architecture The Hard Parts"
 ---
 
