@@ -22,14 +22,6 @@ theme:
         icon: material/brightness-5
         name: Switch to dark mode
 
-    # Dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: black
-      toggle:
-        icon: material/brightness-3
-        name: Switch to light mode
     features:
         - navigation.indexes
         - navigation.top
