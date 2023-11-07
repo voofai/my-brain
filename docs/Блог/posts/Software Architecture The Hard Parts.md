@@ -4,6 +4,7 @@ date: 2023-09-13
 slug: arch-book
 categories:
   - books
+  - architecture
 title: "[Book] Software Architecture The Hard Parts"
 ---
 
