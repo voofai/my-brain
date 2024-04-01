@@ -5,6 +5,7 @@ categories:
   - devops
 slug: spotify
 ---
+
 Вышел новый выпуск подкаста **Corecursive** лидом платформенной разработки Pia Nilsson из Spotify. [Тут](https://corecursive.com/platform-takes-the-pain/) можно послушать или почитать transcript, если лень слушать. [Тут](https://www.reddit.com/r/programming/comments/17m0eli/platform_takes_the_pain_the_inside_story_of/) почитать комментарии на reddit. 
 
 Я думал будет интересно, но как-то слишком много философии и мало технических деталей. Но раз уж я все послушал, вот мои заметки, чтобы вам не пришлось все читать: 

@@ -9,6 +9,7 @@ title: "[Book] Software Architecture The Hard Parts"
 ---
 
 
+
 ![200](attachments/Software_Architecture_The_Hard_Parts.png)
 
 Дочитал книгу **Software Architecture: The Hard Parts**. Мне понравилось, кажется, вместе с книгой **Fundamentals of Software Architecture** от тех же авторов, ее можно рекомендовать как базовый курс архитектуры для синьор разработчиков. Обе, кстати, изданы на русском языке.

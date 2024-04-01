@@ -6,6 +6,7 @@ aliases:
   - Ports And Adapters
 ---
 
+
 Метод построения [[Статьи/Архитектура/Архитектура|архитектуры]] приложений, в котором мы пытаемся максимально абстрагировать бизнес логику от деталей реализации вроде БД, UI, внешних сервисов, фреймворков. Также известна как Onion Architecture или Hexogonal Architecture, Ports And Adapters.
 
 ![500](attachments/clean_arch.png)

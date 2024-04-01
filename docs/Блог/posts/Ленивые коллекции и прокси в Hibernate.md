@@ -8,6 +8,7 @@ categories:
 slug: lazy-collections-hibernate
 ---
 
+
 Ленивая загрузка сущностей (`fetch = FetchType.LAZY`) в Hibernate это не только источник проблем вроде N+1 selects или LazyInitializationException, но и довольно удобный механизм оптимизации производительности. Действительно, зачем запрашивать сразу все связанные данные из БД, если они нам могут не понадобиться. Сами авторы Hibernate считают, что все связи между сущностями должны быть ленивыми.
 Но не все знают, что в Hibernate с ленивыми коллекциями и объектами много чего можно сделать не запуская их загрузку из БД. Далее постараемся на примерах рассмотреть какие варианты нам доступны.
 <!-- more -->
@@ -172,7 +173,6 @@ player.getAchievements().add(new Achievement("Гроза гоблинов", play
 
 ```sql
 select id, guild_id, level from player where id = ?
-select next value for achievement_seq
 insert into achievement (name, player_id, id) values ("Гроза гоблинов", 1, 1)
 ```
 

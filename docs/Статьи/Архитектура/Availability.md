@@ -3,6 +3,7 @@ share: true
 alias: доступность
 ---
 
+
 ## Проценты доступности
 
 | Availability % | Downtime per day | Downtime per year |
