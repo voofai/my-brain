@@ -13,7 +13,7 @@ mkdocs-custom-tags-attributes==0.3.3
 mkdocs-meta-descriptions-plugin==4.1.0
 obsidiantools==0.10.0
 pyvis==0.3.2
-cairosvg==2.8.1
+cairosvg==2.8.2
 pillow==11.2.1
 mkdocs-glightbox==0.4.0
 mkdocs-minify-plugin==0.8.0
