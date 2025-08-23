@@ -1,6 +1,6 @@
 site_name: Подвал мыслей
 site_description: Статьи про IT
-site_url: https://neherim.github.io/my-brain/
+site_url: https://voofai.github.io/my-brain/
 
 theme:
     name: 'material'

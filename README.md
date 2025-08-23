@@ -1,6 +1,6 @@
 Персональный блог и свалка знаний
 ---
-https://neherim.github.io/my-brain/
+https://voofai.github.io/my-brain/
 
 ### Локальный запуск
 ```shell
