@@ -86,6 +86,12 @@ plugins:
       post_readtime: true
       archive: false
       categories: true
+  - blog:
+      blog_dir: sysdesign/Puzzlers
+      post_date_format: long
+      post_readtime: true
+      archive: false
+      categories: true
 hooks:
   - overrides/hooks/on_page_markdown.py
   - overrides/hooks/on_env.py

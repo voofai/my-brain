@@ -8,5 +8,5 @@ https://voofai.github.io/my-brain/
 python3 -m pip install -r requirements.txt
 
 # Запускаем в браузере
-mkdocs serve  
+mkdocs serve -a localhost:8085
 ```
