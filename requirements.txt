@@ -1,5 +1,5 @@
 mkdocs==1.6.1
-mkdocs-material==9.6.21
+mkdocs-material==9.6.22
 mkdocs-ezlinked-plugin==0.3.3
 mkdocs-awesome-pages-plugin==2.10.1
 mdx_breakless_lists==1.0.1
@@ -14,6 +14,6 @@ mkdocs-meta-descriptions-plugin==4.1.0
 obsidiantools==0.11.0
 pyvis==0.3.2
 cairosvg==2.8.2
-pillow==11.3.0
+pillow==12.0.0
 mkdocs-glightbox==0.5.1
 mkdocs-minify-plugin==0.8.0
